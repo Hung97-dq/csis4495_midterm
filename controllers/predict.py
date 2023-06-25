@@ -1,7 +1,7 @@
 import sys;
 import pickle;
-# import subprocess
-# subprocess.check_call(["pip", "install", "scikit-learn"])
+import subprocess
+subprocess.check_call(["pip", "install", "scikit-learn"])
 
 term = sys.argv[1]
 loanAmount = sys.argv[2]
